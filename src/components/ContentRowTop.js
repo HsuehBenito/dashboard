@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import CategoriesInDb from './CategoriesInDb';
-import ContentRowProducts from './ContentRowProducts';
-import LastProductInDb from "./LastProductInDb"
+// import CategoriesInDb from './CategoriesInDb';
+// import ContentRowProducts from './ContentRowProducts';
+// import LastProductInDb from "./LastProductInDb"
 
 class ContentRowTop extends Component{
 	render(){
@@ -15,18 +15,18 @@ class ContentRowTop extends Component{
 					</div>
 				
 					{/*<!-- Content Row Movies-->*/}
-					<ContentRowProducts />
+					{/* <ContentRowProducts /> */}
 					{/*<!-- End movies in Data Base -->*/}
 					
 	
 					{/*<!-- Content Row Last Movie in Data Base -->*/}
 					<div className="row">
 						{/*<!-- Last Movie in DB -->*/}
-						<LastProductInDb />
+						{/* <LastProductInDb /> */}
 						{/*<!-- End content row last movie in Data Base -->*/}
 
 						{/*<!-- Genres in DB -->*/}
-						<CategoriesInDb />
+						{/* <CategoriesInDb /> */}
 						
 						{/*<!--End Genres In Db-->*/}		
 					</div>

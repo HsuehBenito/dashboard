@@ -4,8 +4,8 @@ import ContentWrapper from './ContentWrapper';
 import {Route, Switch} from 'react-router-dom';
 import Product from './Product';
 import CategoriesInDb from './CategoriesInDb';
-import LastProductInDb from './LastProductInDb';
-import ProductListCart from "./ProductListCart"
+// import LastProductInDb from './LastProductInDb';
+// import ProductListCart from "./ProductListCart"
 import Error from './Error';
 
 
@@ -24,9 +24,9 @@ function App() {
 
           <Route path="/CategoriesInDb" component={CategoriesInDb}/>
 
-          <Route path="/LastProductInDb" component={LastProductInDb}/>
+          {/* <Route path="/LastProductInDb" component={LastProductInDb}/> */}
           
-          <Route path="/ProductListCart" component={ProductListCart}/>
+          {/* <Route path="/ProductListCart" component={ProductListCart}/> */}
 
           <Route component={Error}/>
 

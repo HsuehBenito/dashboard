@@ -10,9 +10,10 @@ class CategoriesInDb extends Component{
 	} 
 
 	getCategories(){
-        fetch("/api/products").then(r => r.json()).then(respuesta =>{ 
-            this.setState({categoriesList: respuesta.categoriesData})
-            
+         fetch("http://localhost:3003/api/categorias")
+        .then(respuesta => respuesta.json())
+        .then(respuesta =>{ 
+            this.setState({categoriesList: respuesta.data})
         })
     }
 	componentDidMount(){

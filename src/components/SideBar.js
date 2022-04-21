@@ -30,13 +30,13 @@ function SideBar(){
                 <hr className="sidebar-divider"/>
 
                 {/*<!-- Heading -->*/}
-                <div className="sidebar-heading">Actions</div>
+                <div className="sidebar-heading">Menu</div>
 
                 {/*<!-- Nav Item - Pages -->*/}
                 <li className="nav-item">
                     <Link className="nav-link collapsed" to="/Product">
                         <i className="fas fa-fw fa-folder"></i>
-                        <span>Products</span>
+                        <span>Productos</span>
                     </Link>
                 </li>
 
@@ -44,7 +44,7 @@ function SideBar(){
                 <li className="nav-item">
                     <Link className="nav-link" to="/CategoriesInDb">
                         <i className="fas fa-fw fa-chart-area"></i>
-                        <span>Categories</span>
+                        <span>Categorias</span>
                     </Link>
                 </li>
 

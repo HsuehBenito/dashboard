@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ProductCart from "./ProductCart"
+// import ProductCart from "./ProductCart"
 
 class ProductListCart extends Component{
     constructor(props){

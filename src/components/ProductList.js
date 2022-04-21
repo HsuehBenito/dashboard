@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductList = (props) =>{
     return(
-        <tr>
+        <tr >
             <td>{props.id}</td>
             <td>{props.administrador.nombre}</td>
             <td>{props.nombre}</td>

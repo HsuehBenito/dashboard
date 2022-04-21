@@ -10,14 +10,16 @@ class Product extends Component{
 		}
 	}
 
-	getProducts(){
-        fetch("http://localhost:3003/api").then(r => r.json()).then(respuesta =>{ 
+	 getProducts(){
+           fetch ("")
+		  .then(r => r.json())
+		  .then(respuesta =>{ 
             this.setState({productsList: respuesta.data})
         })
     }
 
-    componentDidMount(){
-        this.getProducts()
+     componentDidMount(){
+         this.getProducts()
     }
 	
 	render(){
