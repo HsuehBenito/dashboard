@@ -11,9 +11,12 @@ class CategoriesInDb extends Component{
 
 	getCategories(){
          fetch("http://localhost:3003/api/categorias")
-        .then(respuesta => respuesta.json())
+        .then(r => r.json())
         .then(respuesta =>{ 
             this.setState({categoriesList: respuesta.data})
+        })
+        .catch(err=>{
+            console.log(err)
         })
     }
 	componentDidMount(){
