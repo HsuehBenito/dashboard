@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-
+import CategoryCount from './CategoryCount';
+import ProductCount from './ProductCount';
+import AdminCount from './AdminCount';
 // import CategoriesInDb from './CategoriesInDb';
 // import ContentRowProducts from './ContentRowProducts';
 // import LastProductInDb from "./LastProductInDb"
@@ -22,10 +24,11 @@ class ContentRowTop extends Component{
 					{/*<!-- Content Row Last Movie in Data Base -->*/}
 					<div className="row">
 						{/*<!-- Last Movie in DB -->*/}
-						{/* <LastProductInDb /> */}
+						<CategoryCount/>
 						{/*<!-- End content row last movie in Data Base -->*/}
-
+						<ProductCount/>
 						{/*<!-- Genres in DB -->*/}
+						<AdminCount/>
 						{/* <CategoriesInDb /> */}
 						
 						{/*<!--End Genres In Db-->*/}		

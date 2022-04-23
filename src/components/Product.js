@@ -11,7 +11,7 @@ class Product extends Component{
 	}
 
 	 getProducts(){
-           fetch ("")
+           fetch ("http://localhost:3003/api")
 		  .then(r => r.json())
 		  .then(respuesta =>{ 
             this.setState({productsList: respuesta.data})
@@ -28,7 +28,7 @@ class Product extends Component{
         <React.Fragment>
 			<div className="contaniner-fluid">
 				    {/*<!-- PRODUCTS LIST -->*/}
-					<h1 className="h3 mb-2 text-gray-800">All the products in the Database</h1>
+					<h1 className="h3 mb-2 text-gray-800">Productos en la Base de Datos</h1>
 					
 					{/*<!-- DataTales Example -->*/}
 					<div className="card shadow mb-4">
@@ -44,7 +44,7 @@ class Product extends Component{
                                             <th>Cosecha</th>
 											<th>Blend</th>
 											<th>volumen</th>
-											<th>Administrador</th>
+											<th>Descripcion</th>
 											<th>stock</th>
 											<th>Categoria</th>
 										</tr>

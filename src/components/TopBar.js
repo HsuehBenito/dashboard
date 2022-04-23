@@ -23,7 +23,7 @@ function TopBar(){
 						<li className="nav-item dropdown no-arrow">
 							<Link className="nav-link dropdown-toggle" to="/" id="userDropdown">
 								<span className="mr-2 d-none d-lg-inline text-gray-600 small">Pikachu con miedo</span>
-								<img className="img-profile rounded-circle" src={foto} alt="Santiago Argilla - Profesor de DH de React" width="60"/>
+								<img className="img-profile rounded-circle" src={foto} alt=" Profesor de DH de React" width="60"/>
 							</Link>
 						</li>
 

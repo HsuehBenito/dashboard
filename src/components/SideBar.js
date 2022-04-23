@@ -47,6 +47,12 @@ function SideBar(){
                         <span>Categorias</span>
                     </Link>
                 </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/Admins">
+                        <i className="fas fa-fw fa-chart-area"></i>
+                        <span>Administradores</span>
+                    </Link>
+                </li>
 
                 
 
